@@ -1,86 +1,87 @@
-# Seed Link
+# 🌱 Seedlink: Your Personalized Plant Care Companion 🌱
 
-Hackathon project University of Leeds 2025 developed by Beckett Sphinx
-A comprehensive project that integrates Arduino, HTML, CSS, PHP, and databases to monitor and manage soil 
+Welcome to **Seedlink**, an innovative platform dedicated to fostering a community of plant enthusiasts committed to environmental stewardship. Our mission is to empower individuals by providing personalized plant care recommendations, ensuring that every plant thrives in its optimal environment.
 
-## Introduction
+---
 
-Seedlink is an innovative project designed to monitor soil moisture levels in real-time. It uses an Arduino to collect sensor data, which is then transmitted to a web server. The data is displayed on a web interface built with HTML, CSS, and PHP, and stored in a database for further analysis.
+## 🚀 Features
 
-## Table of Contents
+- **Personalized Plant Recommendations**: Determine the optimal plants for your specific soil or space, ensuring ideal growth conditions.
+- **Sensor Integration**: Utilize state-of-the-art sensors to monitor light, humidity, temperature, and soil moisture levels.
+- **AI-Powered Insights**: Receive actionable advice tailored to your plant's unique needs through integrated AI APIs.
+- **Community Engagement**: Connect with like-minded individuals, share experiences, and build a supportive network of plant lovers.
+- **Reward System**: Earn rewards for diligent plant care, fostering a sense of accomplishment and encouraging sustainable practices.
 
-- [Introduction](#introduction)
-- [Project Structure](#project-structure)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Arduino Setup](#arduino-setup)
-- [Web Interface](#web-interface)
-- [Database](#database)
-- [APIs](#apis)
+---
 
-## Project Structure
+## 🛠️ Technologies Used
 
-- **Arduino**: Collects soil moisture data using a capacitive moisture sensor.
-- **HTML/CSS**: Provides a user-friendly web interface to display data.
-- **PHP**: Handles server-side processing and database interactions.
-- **Database**: Stores sensor data for historical analysis and reporting.
+- **Backend**:
+  - Python Flask for API development.
+  - Integration of AI APIs for personalized recommendations.
+  - PHP to connect to Database.
+  - SQL for creating tables in the Database.
+- **Frontend**:
+  - HTML and CSS for a user-friendly interface.
+- **Hardware**:
+  - Advanced sensors to monitor environmental conditions.
+- **Other Tools**:
+  - 3D printed box to hold the hardware.
 
-## Installation
+---
 
-Follow these steps to set up the Seedlink project:
+## 🖥️ How It Works
 
-1. **Install Dependencies**:
-    - A requirements.txt can be found which outlines the different requirements that need installing to run the project
+1. **Select a Plant**: Choose from a curated list of plants within the platform.
+2. **Live Sensor Readings**: Sensors provide real-time data on light, humidity, temperature, and soil moisture.
+3. **Receive AI-Powered Recommendations**: The system analyzes the sensor data and offers tailored advice to optimize plant health.
+4. **Engage with the Community**: Share your experiences, seek advice, and connect with fellow plant enthusiasts.
 
-2. **Upload Arduino Sketch**:
-    - Open the Arduino IDE and upload the provided sketch to your Arduino board.
-    - Ensure that the assigned pins are the correct ones, edit the file to match yours
+---
 
-3. **Set Up Local Server**:
-    - There is a python file that starts a local server
+## 🧑‍💻 Usage Example
 
-4. **Set Up Database**:
-    - Import the provided SQL file (`database.sql`) to your MySQL database.
-    - PHP is used for this project
+1. **Select a Plant**: Choose "Tomato" from the plant selection menu.
+2. **Live Sensor Readings**:
+   - Light: 700 lux
+   - Humidity: 70%
+   - Temperature: 25°C
+   - Soil Moisture: 30%
+3. **Submit**: The system processes the data.
+4. **View Recommendation**: The AI provides feedback, such as:
 
-## Usage
+   <div style="color: green;">
+       <p>✅ The environment is suitable for Tomatoes!</p>
+       <p>Light: 700 lux (within the optimal range of 500-1000 lux).</p>
+       <p>Humidity: 70% (within the optimal range of 60-80%).</p>
+       <p>Temperature: 25°C (within the optimal range of 20-30°C).</p>
+       <p>Soil Moisture: 30% (within the optimal range of 20-40%).</p>
+   </div>
 
-1. **Run the Local Server**:
-    - Start the Python server program
+---
 
-2. **Access Web Interface**:
-    - Click on the server link provided by the terminal (provided it is being hosted locally)
+## 🌟 Why Choose Seedlink?
 
-3. **Monitor Soil Moisture**:
-    - View real-time soil moisture data and historical records.
+- **Empowerment**: Make informed decisions about your gardening endeavors.
+- **Innovation**: Leverage advanced technology for optimal plant care.
+- **Community**: Join a network of individuals passionate about plants and the environment.
+- **Sustainability**: Promote environmental stewardship through responsible plant care.
 
-## Arduino Setup
+---
 
-1. **Connect the Sensors**:
-    - Connect the capacitive soil moisture sensor, light sensitivity sensor, humidity and temperature sensor to the Arduino board.
+## 🏆 Achievements
 
-2. **Upload Code**:
-    - Upload the provided Arduino sketch to the Arduino board using the Arduino IDE.
+- **Hackathon Success**: Developed within 24 hours and secured 1st place at Leeds Hack '25.
+- **Technical Milestones**: Successfully integrated multiple sensors and AI APIs to provide personalized plant care recommendations.
+- **Team Collaboration**: Demonstrated exceptional teamwork and problem-solving skills throughout the development process.
 
-3. **Serial Communication**:
-    - Ensure the Arduino board is connected to the server via serial communication for data transmission.
+---
 
-## Web Interface
+## 👨‍💻 Team
 
-- **HTML**: Structures the web pages for displaying data.
-- **CSS**: Styles the web pages for an improved user experience.
-- **JavaScript**: (Optional) Adds interactive elements to the web interface.
-- **PHP**: Handles form submissions, data retrieval, and database interactions.
+- **[@Islam-vz7]** - Backend Developer & AI Integration
+- **[@mostafaissa]** - Robotics Specialist
+- **[@EgyIbrahim]** - Backend Developer
+- **[@LGandia]** - CS Student & Presentation Lead
 
-## Database
-
-1. **Create Database**:
-    - Use the provided SQL script to create the necessary database and tables.
-    - Ensure your PHP code has the correct database credentials for connection.
-
-2. **Store Data**:
-    - Sensor data is stored in the database and can be retrieved 
-
-## APIs
-- **Typo.js**: detects spelling mistakes
-- **Plant api**: an AI database that has information about plants. This information is compared to give insight
+---
