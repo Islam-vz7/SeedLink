@@ -74,7 +74,7 @@ Welcome to **Seedlink**, an innovative platform dedicated to fostering a communi
 - **Hackathon Success**: Developed within 24 hours and secured 1st place at Leeds Hack '25.
 - **Technical Milestones**: Successfully integrated multiple sensors and AI APIs to provide personalized plant care recommendations.
 - **Team Collaboration**: Demonstrated exceptional teamwork and problem-solving skills throughout the development process.
-- **[DevPost: ](https://devpost.com/software/seedlink-4fa9gc)**
+- **[DevPost](https://devpost.com/software/seedlink-4fa9gc)**
 
 ---
 
