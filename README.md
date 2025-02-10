@@ -79,9 +79,8 @@ Welcome to **Seedlink**, an innovative platform dedicated to fostering a communi
 
 ## 👨‍💻 Team
 
-- **[@Islam-vz7]** - Backend Developer & AI Integration
-- **[@mostafaissa]** - Robotics Specialist
-- **[@EgyIbrahim]** - Backend Developer
-- **[@LGandia]** - CS Student & Presentation Lead
-
+- **[@Islam-vz7](https://github.com/Islam-vz7)** - Backend Developer & AI Integration
+- **[@mostafaissa](https://github.com/mostafaissa)** - Robotics Specialist
+- **[@EgyIbrahim](https://github.com/EgyIbrahim)** - Backend Developer
+- **[@LGandia](https://github.com/LGandia)** - CS Student & Presentation Lead
 ---
